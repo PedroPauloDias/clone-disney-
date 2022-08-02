@@ -6,12 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "banco": "json-server --watch db.json --port 3005"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "12.2.3",
+    "phosphor-react": "^1.4.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "eslint": "8.20.0",
